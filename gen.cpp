@@ -8,9 +8,9 @@ const int kN = 10;
 const int kC = 100;
 
 int main(){
-	int N = rnd.next(1, kN);
+	int N = rnd.next(2, kN);
 	int Q = rnd.next(1, kN);
-	int K = rnd.next(1, N);
+	int K = rnd.next(2, N);
 	cout << N << ' ' << Q << ' ' << K << '\n';
 	auto a = Array::random(N, 1, kC);
 	cout << a << '\n';
