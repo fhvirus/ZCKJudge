@@ -1,2 +1,7 @@
+!exec/
 exec/*
+!exec/.keep
+
+!iof/
 iof/*
+!iof/.keep
